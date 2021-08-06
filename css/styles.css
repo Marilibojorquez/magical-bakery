@@ -1,8 +1,44 @@
-h1 {
-  color: rgb(206, 132, 206);
-  text-align: center;
-  font-style: italic;
+.jumbotron {
+  vertical-align: middle;
+  padding: auto;
+  background-size: auto;
+  background-color: magenta;
 }
+.badge {
+  display: inline-block;
+  padding: 0.50em 0.5em;
+  font-size: 200%;
+  font-weight: 600;
+  line-height: 1;
+  text-align: left;
+  white-space: normal;
+  vertical-align: baseline;
+  border-radius: 1rem;
+  transition: color 2s ease-in-out, background-color 2s ease-in-out, border-color 2s ease-in-out, box-shadow 2s ease-in-out;
+}
+
+.carousel {
+  position: relative;
+  columns: 30px;
+}
+.carousel-inner {
+  display: inline;
+  color: rgb(35, 18, 66);
+}
+
+.card {
+  position: relative;
+  display: list-item;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 3;
+  word-wrap: break-word;
+  background-color: rgb(155, 51, 51);
+  background-clip: padding-box;
+  border: 1px solid rgba(168, 124, 124, 0.125);
+  border-radius: 1rem;
+}
+
 h2 {
   font-size: 30px;
 color: rgb(161, 95, 106);
@@ -17,8 +53,9 @@ p.important {
   text-align: auto;
 }
 img {
+  vertical-align: middle;
   float: left;
-  size: 30%;
+  size: 0.2%;
 }
 .sidebar {
   float: left;
@@ -27,4 +64,20 @@ img {
   background-color: cadetblue;
   background-size: 100%;
 
+}
+.card-img {
+  size: 30px;
+  width: auto;
+}
+
+.display-4 {
+  font-weight: initial;
+}
+.resize {
+  width: 100px;
+  height: auto;
+}
+.resize-2 {
+  width: 100px;
+  height: auto;
 }
