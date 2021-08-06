@@ -37,4 +37,4 @@ _{Let people know what to do if they run into any issues or have questions, idea
 
 ## Contact Information
 
-_{Add your contact information here.}_
+_{Marili Bojorquez marilibojorquez@yahoo.com}_

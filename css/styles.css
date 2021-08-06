@@ -1,3 +1,30 @@
 h1 {
   color: rgb(206, 132, 206);
+  text-align: center;
+  font-style: italic;
+}
+h2 {
+  font-size: 30px;
+color: rgb(161, 95, 106);
+}
+p.important {
+  width: 80%;
+  color: #8fe48f;
+  background-color: rgb(131, 185, 216);
+}
+.special {
+  color: rgb(235, 129, 129);
+  text-align: auto;
+}
+img {
+  float: left;
+  size: 30%;
+}
+.sidebar {
+  float: left;
+  color: rgb(164, 91, 233);
+  width: auto;
+  background-color: cadetblue;
+  background-size: 100%;
+
 }
