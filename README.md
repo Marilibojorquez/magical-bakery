@@ -1,7 +1,6 @@
 # _{Magical Bakery}_
 
-#### _{This is a webpage were I presnt my bakery. This application 
-is created under the guidence of Epicodus}_
+#### _{This is a webpage were I presnt my bakery. This application is created under the guidence of Epicodus}_
 
 #### By _**{Marili Bojorquez}**_
 
@@ -16,11 +15,7 @@ _{This an application created for my first project at Epicodus. I chosed a Baker
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Github
 
 _Server used was Githib._
 
