@@ -41,6 +41,28 @@
   box-sizing: border-box;
 }
 
+.resize {
+  width: 300px;
+}
+
+.resize-2 {
+  width: 300px;
+}
+
+.resize-3 {
+  width: 300px;
+}
+
+.resize-4 {
+  width: 300px;
+}
+
+.my-class {
+  margin: 10px;
+  background-color: rgb(156, 68, 68);
+  border: 50px rgb(181, 216, 117);
+  padding: 20px;
+}
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -52,20 +74,21 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 .sidebar {
+  text-align: left;
   margin: auto;
-  background-color: coral;
+  background-color: rgb(211, 118, 84);
   background-clip: border-box;
   color: rgb(58, 158, 83);
 }
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1rem;
+  font-size: 2em;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #5e85ac;
   text-align: left;
-  background-color: #fff;
+  background-color: rgb(87, 50, 3);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -158,9 +181,10 @@ sup {
 }
 
 a {
-  color: #007bff;
-  text-decoration: none;
-  background-color: transparent;
+  size: 20px;
+  color: #ca7692;
+  text-decoration: brown;
+  background-color: black;
 }
 
 a:hover {
@@ -186,6 +210,7 @@ samp {
   font-size: 1em;
 }
 .badge {
+  text-align: left;
   background-color: darkblue;
 }
 pre {
@@ -548,7 +573,7 @@ pre {
 }
 
 .sidebar {
-  color: magenta;
+  color: rgb(184, 165, 84);
 }
 pre code {
   font-size: inherit;
@@ -5278,17 +5303,21 @@ a.badge-dark:focus, a.badge-dark.focus {
   border-radius: 0.3rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 500px) {
   .jumbotron {
+    background-color: brown;
     color: rgb(108, 165, 42);
-    padding: 4rem 2rem;
+    padding: 3rem 1rem;
+    width: 500px;
+    height: auto;
+  
   }
 }
 
 .jumbotron-fluid {
   padding-right: 3;
   padding-left: 0;
-  border-radius: 0;
+  border-radius: 4;
 }
 
 .alert {
@@ -10231,7 +10260,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
   tr,
   img {
-    page-break-inside: avoid;
+    width: 20px;
   }
   p,
   h2,
