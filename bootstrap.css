@@ -39,6 +39,15 @@
 *::before,
 *::after {
   box-sizing: border-box;
+
+}
+.box1 {
+  width: 500px;
+  border: solid rgb(153, 223, 61);
+  border-width: 30px;
+  background-color: chartreuse;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .resize {
@@ -47,6 +56,7 @@
 
 .resize-2 {
   width: 300px;
+  display: block;
 }
 
 .resize-3 {
@@ -54,41 +64,43 @@
 }
 
 .resize-4 {
+  float: centers;
   width: 300px;
 }
 
 .my-class {
-  margin: 10px;
-  background-color: rgb(156, 68, 68);
-  border: 50px rgb(181, 216, 117);
-  padding: 20px;
+  border-width: var(--breakpoint-sm);
+  align-self: left;
+  width: 400px;
+  box-sizing: 700px;
+  margin: 40px;
+  background-color: rgb(236, 171, 171);
+  padding: 90px;
 }
 html {
-  font-family: sans-serif;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: cursive;
+  line-height: 1.14;
+
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 .sidebar {
-  text-align: left;
-  margin: auto;
-  background-color: rgb(211, 118, 84);
-  background-clip: border-box;
-  color: rgb(58, 158, 83);
+  width: auto;
+  text-align: center;
+  text-anchor: 9px;
+  background-color: rgb(143, 143, 214);
 }
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 2em;
-  font-weight: 400;
+  margin-left: 20px;
+  margin: 3px;
+  font-family: Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2.1em;
+  font-weight: 500;
   line-height: 1.5;
-  color: #5e85ac;
-  text-align: left;
-  background-color: rgb(87, 50, 3);
+  text-align: center;
+  background-color: rgb(176, 207, 162);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -97,8 +109,8 @@ body {
 
 hr {
   box-sizing: content-box;
-  height: 0;
-  overflow: visible;
+  height: 800px;
+  overflow: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -135,7 +147,14 @@ dl {
   margin-bottom: 1rem;
 }
 
-ol ol,
+ol {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: coral;
+  text-align: center;
+}
+
+
+ol,
 ul ul,
 ol ul,
 ul ol {
@@ -152,7 +171,9 @@ dd {
 }
 
 blockquote {
-  margin: 0 0 1rem;
+  text-align: var(--indigo);
+  margin: 6.2rem;
+  background-origin: padding-box;
 }
 
 b,
@@ -183,7 +204,7 @@ sup {
 a {
   size: 20px;
   color: #ca7692;
-  text-decoration: brown;
+  text-decoration: rgb(253, 168, 168);
   background-color: black;
 }
 
@@ -197,7 +218,9 @@ a:not([href]):not([class]) {
   text-decoration: none;
 }
 
-a:not([href]):not([class]):hover {
+a:not([href]):not([
+  
+]):hover {
   color: inherit;
   text-decoration: none;
 }
@@ -210,11 +233,12 @@ samp {
   font-size: 1em;
 }
 .badge {
+  
   text-align: left;
-  background-color: darkblue;
+  background-color: rgb(131, 65, 96);
 }
 pre {
-  margin-top: 0;
+  margin-top: 90px;
   margin-bottom: 1rem;
   overflow: auto;
   -ms-overflow-style: scrollbar;
@@ -471,7 +495,7 @@ small,
 mark,
 .mark {
   padding: 0.2em;
-  background-color: #fcf8e3;
+  background-color: #8a804e;
 }
 
 .list-unstyled {
@@ -498,6 +522,7 @@ mark,
 }
 
 .blockquote {
+  display: block;
   margin-bottom: 5rem;
   font-size: 1.25rem;
   color: blueviolet;
@@ -506,7 +531,7 @@ mark,
 .blockquote-footer {
   display: block;
   font-size: 80%;
-  color: #6c757d;
+  color: #0d3152;
 }
 
 .blockquote-footer::before {
@@ -520,8 +545,9 @@ mark,
 }
 
 .img-thumbnail {
+  flood-color: center;
   padding: 0.25rem;
-  background-color: #fff;
+  background-color: rgb(109, 46, 46);
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -624,12 +650,16 @@ pre code {
 }
 
 .row {
-  display: -ms-flexbox;
+  width: 400px;
+  text-align: left;
+  margin: center;
+  background-color: rgb(143, 192, 143);
+  color: rgb(74, 126, 133);
   display: flex;
-  -ms-flex-wrap: wrap;
+  -ms-flex-wrap: round;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: 8px;
+  margin-left: 8px;
 }
 
 .no-gutters {
@@ -2059,7 +2089,7 @@ pre code {
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid #335270;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -4762,21 +4792,20 @@ input[type="button"].btn-block {
 }
 
 .card {
-  position: relative;
-  display: -ms-flexbox;
-  display: flex;
+  margin: 7px;
+  position: center;
+  display: center;
   -ms-flex-direction: column;
   flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #fff;
+  min-width: 500px;
+  background-color: rgb(231, 222, 140);
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border: 50px solid lightblue;
+  border-radius: 6.25rem;
 }
 
 .card > hr {
-  margin-right: 0;
+  margin-right: 5px;
   margin-left: 0;
 }
 
@@ -4826,6 +4855,10 @@ input[type="button"].btn-block {
   text-decoration: none;
 }
 
+.footer {
+  width: 600px;
+}
+
 .card-link + .card-link {
   margin-left: 1.25rem;
 }
@@ -4842,9 +4875,10 @@ input[type="button"].btn-block {
 }
 
 .card-footer {
-  padding: 0.75rem 1.25rem;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  width: auto;
+  padding: 4.75rem 1.25rem;
+  background-color: yellow;
+  border-top: 7px solid rgba(0, 0, 0, 0.125);
 }
 
 .card-footer:last-child {
@@ -5296,28 +5330,30 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .jumbotron {
-  background-color: lime;
+  background-color: pink;
   padding: 2rem 1rem;
-  margin-bottom: 2rem;
-  background-color: #e9ecef;
+  margin: center;
+  margin: 80px;
+  background-color: yel;
   border-radius: 0.3rem;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 2000px) {
   .jumbotron {
-    background-color: brown;
-    color: rgb(108, 165, 42);
+    background-color: lightcoral;
     padding: 3rem 1rem;
-    width: 500px;
+    width: 400px;
     height: auto;
-  
+    padding: 7s0px;
+    text-align: center;
+    
   }
 }
 
 .jumbotron-fluid {
-  padding-right: 3;
+  padding-right: center;
   padding-left: 0;
-  border-radius: 4;
+  border-radius: 2;
 }
 
 .alert {
@@ -5881,15 +5917,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   border-color: #1b1e21;
 }
 
-.close {
-  float: right;
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 1;
-  color: #000;
-  text-shadow: 0 1px 0 #fff;
-  opacity: .5;
-}
+
 
 .close:hover {
   color: #000;
