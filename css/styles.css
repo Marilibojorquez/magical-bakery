@@ -1,0 +1,93 @@
+body {
+  float: center;
+  text-align: auto 4px;
+  color: rgb(146, 184, 184);
+  font-family: monospace;
+  width: auto;
+  box-shadow: 0 rgb(62, 185, 109);
+  size: 60px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  border-style: groove;
+  font-family: monospace;
+  font-size: 60px;
+  padding: 30px;
+  text-align: center;
+  color: rgb(112, 184, 98);
+  background-color: rgb(195, 156, 233);
+  size: 50px;
+  margin: 8px;
+}
+
+.box1 {
+  box-sizing: border-box;
+  float: center;
+  padding: 2px;
+  margin: center 6px;
+  width: 50%;
+  border-width: 60px;
+  border: skyblue;
+}
+
+.card {
+  background-color: rgb(114, 158, 112);
+  text-align: center;
+  color: rgb(125, 125, 199);
+  background-origin: padding-box;
+  width: auto;
+}
+
+.my-class {
+  border: 4px;
+  padding: 5px;
+}
+
+.row {
+
+  font-size: 40px;
+  float: center;
+  text-align: center;
+  width: auto;
+}
+
+p {
+  font-family: monospace;
+  color: blueviolet;
+  background-color: rgb(173, 209, 138);
+}
+
+
+.box {
+  border-radius: 70px;
+  text-align: center;
+  margin: center;
+  width: 100%;
+  padding: 80px;
+  border: solid rgb(216, 122, 122);
+  border-width: 50px;
+  background-color: #abd5e2;
+  margin-top: 60px;
+  box-sizing: border-box;
+}
+
+.centered-image {
+  width: 50%;
+  border-radius: 50px;
+  border-style: dotted;
+}
+
+.footer {
+  padding: 70px;
+  font-size: 30px;
+  font-family: cursive;
+  color: rgb(245, 166, 190);
+  text-align: center;
+}
+
+.blockqoute {
+  color: rgba(127, 255, 212, 0.322);
+  text-align: center;
+  font-family: serif;
+}
