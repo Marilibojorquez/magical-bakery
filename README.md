@@ -7,7 +7,7 @@
 ## Technologies Used
 
 * _HTML_
-* _BOOTSRAP.CSS_
+* _CSS_
 
 ## Description
 
@@ -17,7 +17,7 @@ _{This an application created for my first project at Epicodus. I chosed a Baker
 
 * _Github
 
-* _Server used was Githib, please use this link to open up webpage in your browser https://github.com/Marilibojorquez/magical-bakery.git _
+* _Server used was Githib, please use this link to open up webpage in your browser https://marilibojorquez.github.io/magical-bakery/
 
 ## Known Bugs
 
